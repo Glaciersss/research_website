@@ -66,23 +66,24 @@ function ImageGallery() {
   const cards =
     list.length > 1
       ? [
-          { offset: -2, left: -230, top: '42%', height: 220, rotateY: 50, scale: 0.9, opacity: 0.32, zIndex: 1, translateZ: -160, hiddenOnMobile: true },
-          { offset: -1, left: -65, top: '32%', height: 320, rotateY: 34, scale: 0.96, opacity: 0.72, zIndex: 2, translateZ: -80 },
-          { offset: 0, left: 150, top: '15%', height: 500, rotateY: 0, scale: 1, opacity: 1, zIndex: 20, translateZ: 180 },
-          { offset: 1, left: 365, top: '32%', height: 320, rotateY: -34, scale: 0.96, opacity: 0.72, zIndex: 2, translateZ: -80 },
-          { offset: 2, left: 530, top: '42%', height: 220, rotateY: -50, scale: 0.9, opacity: 0.32, zIndex: 1, translateZ: -160, hiddenOnMobile: true },
+          { offset: -2, left: -370, top: '42%', height: 220, maxWidth: 220, rotateY: 50, scale: 0.9, opacity: 0.32, zIndex: 1, translateZ: -220, hiddenOnMobile: true },
+          { offset: -1, left: -155, top: '32%', height: 320, maxWidth: 320, rotateY: 34, scale: 0.96, opacity: 0.72, zIndex: 8, translateZ: -40 },
+          { offset: 0, left: 95, top: '15%', height: 500, maxWidth: 820, rotateY: 0, scale: 1, opacity: 1, zIndex: 20, translateZ: 180 },
+          { offset: 1, left: 870, top: '32%', height: 320, maxWidth: 320, rotateY: -34, scale: 0.96, opacity: 0.72, zIndex: 8, translateZ: -40 },
+          { offset: 2, left: 1195, top: '42%', height: 220, maxWidth: 220, rotateY: -50, scale: 0.9, opacity: 0.32, zIndex: 1, translateZ: -220, hiddenOnMobile: true },
         ]
-      : [{ offset: 0, left: 150, top: '15%', height: 500, rotateY: 0, scale: 1, opacity: 1, zIndex: 20, translateZ: 180 }]
+      : [{ offset: 0, left: 95, top: '15%', height: 500, maxWidth: 820, rotateY: 0, scale: 1, opacity: 1, zIndex: 20, translateZ: 180 }]
 
   return (
     <div className="w-full space-y-3">
       <div
-        className="relative w-full max-w-[1000px] mx-auto h-[340px] md:h-[540px] overflow-visible"
+        className="relative w-full max-w-[1000px] mx-auto -translate-y-[100px] h-[340px] md:h-[540px] overflow-visible"
         style={{ perspective: '1400px', transformStyle: 'preserve-3d' }}
       >
         {cards.map((card) => {
           const imageIndex = getIndex(card.offset)
-          const width = Math.round(card.height * getAspectRatio(imageIndex))
+          const naturalWidth = Math.round(card.height * getAspectRatio(imageIndex))
+          const width = Math.min(naturalWidth, card.maxWidth)
 
           return (
             <motion.button
@@ -133,7 +134,7 @@ function ImageGallery() {
       </div>
 
       {list.length > 1 && (
-        <div className="flex items-center justify-center gap-4">
+        <div className="flex items-center justify-center gap-4 mt-0">
           <button
             type="button"
             onClick={() => goTo(current - 1)}
@@ -141,7 +142,7 @@ function ImageGallery() {
           >
             &#8249;
           </button>
-          <div className="flex justify-center gap-2">
+          <div className="flex justify-center gap-2 translate-y-[120px]">
             {list.map((_, i) => (
               <button
                 key={i}
