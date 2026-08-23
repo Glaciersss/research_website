@@ -37,10 +37,10 @@ function Login() {
       }}
     >
       <div className="card" style={{ width: '400px', padding: '40px' }}>
-        <h2 style={{ textAlign: 'center', marginBottom: '30px', fontSize: '25px' }}>
+        <h2 style={{ textAlign: 'center', marginBottom: '30px', fontSize: '26px' }}>
           艺术与文化智能计算
         </h2>
-        <h3 style={{ textAlign: 'center', marginBottom: '30px', fontSize: '19px', color: '#666' }}>
+        <h3 style={{ textAlign: 'center', marginBottom: '30px', fontSize: '20px', color: '#666' }}>
           管理后台登录
         </h3>
 

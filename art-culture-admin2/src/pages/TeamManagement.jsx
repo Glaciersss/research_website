@@ -315,7 +315,7 @@ function TeamManagement() {
 
             <form onSubmit={handleSubmit}>
               <div style={{ marginBottom: '15px' }}>
-                <label style={{ display: 'block', marginBottom: '5px', fontSize: '15px' }}>头像</label>
+                <label style={{ display: 'block', marginBottom: '5px', fontSize: '17px' }}>头像</label>
                 {formData.avatar && (
                   <img
                     src={formData.avatar}
@@ -334,7 +334,7 @@ function TeamManagement() {
               </div>
 
               <div style={{ marginBottom: '15px' }}>
-                <label style={{ display: 'block', marginBottom: '5px', fontSize: '15px' }}>姓名 *</label>
+                <label style={{ display: 'block', marginBottom: '5px', fontSize: '17px' }}>姓名 *</label>
                 <input
                   type="text"
                   className="input"
@@ -345,7 +345,7 @@ function TeamManagement() {
               </div>
 
               <div style={{ marginBottom: '15px' }}>
-                <label style={{ display: 'block', marginBottom: '5px', fontSize: '15px' }}>职位 *</label>
+                <label style={{ display: 'block', marginBottom: '5px', fontSize: '17px' }}>职位 *</label>
                 <select className="input" value={formData.role} onChange={e => setFormData({ ...formData, role: e.target.value })} required>
                   <option value="">请选择职位</option>
                   <option value="教授">教授</option>
@@ -361,7 +361,7 @@ function TeamManagement() {
               </div>
 
               <div style={{ marginBottom: '15px' }}>
-                <label style={{ display: 'block', marginBottom: '5px', fontSize: '15px' }}>类别 *</label>
+                <label style={{ display: 'block', marginBottom: '5px', fontSize: '17px' }}>类别 *</label>
                 <select className="input" value={formData.category} onChange={e => setFormData({ ...formData, category: e.target.value })}>
                   <option value="faculty">导师</option>
                   <option value="student">在读生</option>
@@ -370,7 +370,7 @@ function TeamManagement() {
               </div>
 
               <div style={{ marginBottom: '15px' }}>
-                <label style={{ display: 'block', marginBottom: '5px', fontSize: '15px' }}>研究方向</label>
+                <label style={{ display: 'block', marginBottom: '5px', fontSize: '17px' }}>研究方向</label>
                 <input
                   type="text"
                   className="input"
@@ -381,17 +381,17 @@ function TeamManagement() {
               </div>
 
               <div style={{ marginBottom: '15px' }}>
-                <label style={{ display: 'block', marginBottom: '5px', fontSize: '15px' }}>邮箱</label>
+                <label style={{ display: 'block', marginBottom: '5px', fontSize: '17px' }}>邮箱</label>
                 <input type="email" className="input" value={formData.email} onChange={e => setFormData({ ...formData, email: e.target.value })} />
               </div>
 
               <div style={{ marginBottom: '15px' }}>
-                <label style={{ display: 'block', marginBottom: '5px', fontSize: '15px' }}>个人主页</label>
+                <label style={{ display: 'block', marginBottom: '5px', fontSize: '17px' }}>个人主页</label>
                 <input type="url" className="input" value={formData.website} onChange={e => setFormData({ ...formData, website: e.target.value })} />
               </div>
 
               <div style={{ marginBottom: '15px' }}>
-                <label style={{ display: 'block', marginBottom: '5px', fontSize: '15px' }}>个人简介</label>
+                <label style={{ display: 'block', marginBottom: '5px', fontSize: '17px' }}>个人简介</label>
                 <textarea
                   className="input"
                   rows="4"
@@ -402,7 +402,7 @@ function TeamManagement() {
               </div>
 
               <div style={{ marginBottom: '15px' }}>
-                <label style={{ display: 'block', marginBottom: '5px', fontSize: '15px' }}>已有成果（选择关联的学术成果）</label>
+                <label style={{ display: 'block', marginBottom: '5px', fontSize: '17px' }}>已有成果（选择关联的学术成果）</label>
                 <div
                   style={{
                     border: '1px solid #ddd',

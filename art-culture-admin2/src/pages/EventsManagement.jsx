@@ -148,7 +148,7 @@ function EventsManagement() {
 
             <form onSubmit={handleSubmit}>
               <div style={{ marginBottom: '15px' }}>
-                <label style={{ display: 'block', marginBottom: '5px', fontSize: '15px' }}>标题 *</label>
+                <label style={{ display: 'block', marginBottom: '5px', fontSize: '17px' }}>标题 *</label>
                 <input
                   type="text"
                   className="input"
@@ -159,7 +159,7 @@ function EventsManagement() {
               </div>
 
               <div style={{ marginBottom: '15px' }}>
-                <label style={{ display: 'block', marginBottom: '5px', fontSize: '15px' }}>日期 *</label>
+                <label style={{ display: 'block', marginBottom: '5px', fontSize: '17px' }}>日期 *</label>
                 <input
                   type="date"
                   className="input"
@@ -170,7 +170,7 @@ function EventsManagement() {
               </div>
 
               <div style={{ marginBottom: '15px' }}>
-                <label style={{ display: 'block', marginBottom: '5px', fontSize: '15px' }}>时间</label>
+                <label style={{ display: 'block', marginBottom: '5px', fontSize: '17px' }}>时间</label>
                 <input
                   type="text"
                   className="input"
@@ -181,7 +181,7 @@ function EventsManagement() {
               </div>
 
               <div style={{ marginBottom: '15px' }}>
-                <label style={{ display: 'block', marginBottom: '5px', fontSize: '15px' }}>地点</label>
+                <label style={{ display: 'block', marginBottom: '5px', fontSize: '17px' }}>地点</label>
                 <input
                   type="text"
                   className="input"

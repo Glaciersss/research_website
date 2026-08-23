@@ -10,6 +10,14 @@ body {
   color: #333;
 }
 
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -21,7 +29,7 @@ body {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 17px;
   transition: all 0.3s;
 }
 
@@ -73,7 +81,11 @@ body {
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 4px;
-  font-size: 15px;
+  font-size: 17px;
+}
+
+input[type="file"] {
+  font-size: 17px;
 }
 
 .input:focus {
@@ -89,6 +101,7 @@ body {
 .table th,
 .table td {
   padding: 12px;
+  font-size: 17px;
   text-align: left;
   border-bottom: 1px solid #e0e0e0;
 }

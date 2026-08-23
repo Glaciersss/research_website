@@ -49,7 +49,7 @@ function Dashboard() {
         }}
       >
         <div style={{ padding: '0 20px', marginBottom: '30px' }}>
-          <h3 style={{ fontSize: '17px', marginBottom: '5px' }}>管理后台</h3>
+          <h3 style={{ fontSize: '18px', marginBottom: '5px' }}>管理后台</h3>
           <p style={{ fontSize: '15px', opacity: 0.7 }}>欢迎，{user?.name || user?.username}</p>
         </div>
 

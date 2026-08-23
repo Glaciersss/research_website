@@ -88,7 +88,7 @@ function HeroSettings() {
       margin: '0 auto',
     },
     title: {
-      fontSize: '25px',
+      fontSize: '26px',
       fontWeight: 'bold',
       color: '#2c3e50',
       marginBottom: '30px',
@@ -103,7 +103,7 @@ function HeroSettings() {
       boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
     },
     sectionTitle: {
-      fontSize: '19px',
+      fontSize: '20px',
       fontWeight: '600',
       color: '#2c3e50',
       marginBottom: '20px',

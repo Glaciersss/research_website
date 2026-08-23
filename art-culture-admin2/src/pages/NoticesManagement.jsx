@@ -143,7 +143,7 @@ function NoticesManagement() {
 
             <form onSubmit={handleSubmit}>
               <div style={{ marginBottom: '15px' }}>
-                <label style={{ display: 'block', marginBottom: '5px', fontSize: '15px' }}>标题 *</label>
+                <label style={{ display: 'block', marginBottom: '5px', fontSize: '17px' }}>标题 *</label>
                 <input
                   type="text"
                   className="input"
@@ -154,7 +154,7 @@ function NoticesManagement() {
               </div>
 
               <div style={{ marginBottom: '15px' }}>
-                <label style={{ display: 'block', marginBottom: '5px', fontSize: '15px' }}>链接</label>
+                <label style={{ display: 'block', marginBottom: '5px', fontSize: '17px' }}>链接</label>
                 <input
                   type="url"
                   className="input"
@@ -165,7 +165,7 @@ function NoticesManagement() {
               </div>
 
               <div style={{ marginBottom: '15px' }}>
-                <label style={{ display: 'block', marginBottom: '5px', fontSize: '15px' }}>日期 *</label>
+                <label style={{ display: 'block', marginBottom: '5px', fontSize: '17px' }}>日期 *</label>
                 <input
                   type="date"
                   className="input"
