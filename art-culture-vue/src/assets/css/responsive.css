@@ -1,0 +1,557 @@
+
+
+/* Normal desktop :1500px. */
+@media (min-width: 1500px) and (max-width: 1600px) {
+.blog-area .blog-title h3 a {
+    width: 78%;  
+}
+.blog-area .blog-title p {
+    font-size: 16px;
+}
+.footer-area .footer-title p {
+    width: 40%;
+}
+
+
+
+
+
+
+
+}
+
+/* Normal desktop :1170px. */
+@media (min-width: 1170px) and (max-width: 1299px) {
+
+.header-area .header-menu ul li a {
+    padding-left: 7px;
+}
+.feature-area .single-feature-box .feature-content .feature-title p {
+    font-size: 13px;
+}
+.service-area .single-service-box .service-content .service-title p {
+  font-size: 12px;
+}
+.testimonial-area .testimonial-content .testimonial-text p {
+    width: 77%;
+}
+.blog-area .blog-title p {
+    font-size: 12px;
+}
+.footer-area .footer-title p {
+    width: 55%;
+}
+.blog-area .blog-title h3 a {
+    font-size: 19px;
+    width: 95%;
+}
+.testimonial-area.style-three .testimonial-text p {
+    padding: 50px 10px 50px;
+}
+.pricing-area .pricing-text p {
+    width: 97%;
+}
+.team-area .section-title p {
+    letter-spacing: 1px;
+    width: 85%;
+}
+.hero-section.style-three .hero-title p {
+    letter-spacing: 0;
+}
+.skill-title h2 {
+    letter-spacing: 5px;
+}
+.section-title-1 p {
+    letter-spacing: 1px;
+}
+.choose-area.upper .section-title p {
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.choose-area.upper .choose-title p {
+    font-size: 15px;
+}
+.about-area-1 .about-titlee h3 {
+    letter-spacing: 5px;
+}
+.service-area.upper-1 .Section-title p {
+    letter-spacing: 1px;
+}
+.testimonial-area.style-three.upper .Section-title p {
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.breadcumb-title h1 {
+    font-size: 52px;
+}
+
+
+
+
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1169px) {
+
+.header-area .header-menu ul li a {
+    padding-left: 7px;
+}
+.team-area .team-title h3 {
+    font-size: 16px;
+}
+.feature-area .single-feature-box .feature-content .feature-title p {
+    font-size: 13px;
+}
+.service-area .single-service-box .service-content .service-title p {
+    font-size: 12px;
+}
+.testimonial-area .testimonial-content .testimonial-text p {
+    width: 68%;
+    font-size: 14px;
+}
+.blog-area .blog-title h3 a {
+    font-size: 17px;
+}
+.blog-area .blog-title p {
+    font-size: 12px;
+}
+.footer-area .footer-title p {
+    font-size: 14px;
+    width: 48%;
+}
+.section-title-1 p {
+    margin-top: 7px;
+    margin-bottom: 0;
+    width: 84%;
+    margin: 7px auto 0;
+    letter-spacing: 1px;
+    color: #626262;
+    font-size: 14px;
+    text-align: center;
+    padding: 0 0 12px;
+}
+.about-area-1 .about-titlee h3 {
+    letter-spacing: 5px;
+}
+.pricing-area .pricing-text p {
+    letter-spacing: 1px;
+}
+.choose-area.upper .choose-title p {
+    font-size: 15px;
+}
+.team-area .section-title p {
+    letter-spacing: 1px;
+}
+.choose-area.upper .section-title p {
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.testimonial-area.style-three.upper .Section-title p {
+    letter-spacing: 0px;
+}
+.service-area.upper-1 .Section-title p {
+    letter-spacing: 1px;
+}
+.breadcumb-title h1 {
+    font-size: 48px;
+}
+.testimonial-area.style-three.upper1 .Section-title p {
+    letter-spacing: 1px;
+}
+.testimonial-area.style-three .testimonial-text p {
+    letter-spacing: 0px;
+}
+.service-area.upper-2 .Section-title p {
+    letter-spacing: 1px;
+}
+.sideber-title h3 {
+    font-size: 23px;
+}
+.blog-area.upper-55 .blog-title h3 a {
+    font-size: 25px;
+}
+
+
+
+
+
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+.header-area .header-menu ul li a {
+    padding-left: 8px;
+}
+.hero-section .content .hero-title h1 {
+    font-size: 36px;
+}
+.portfolio-area .section-menu ul li {
+    font-size: 10px;
+}
+.testimonial-area .testimonial-content .testimonial-text p {
+    font-size: 14px;
+}
+.counter-area .single-counter-box {
+    margin-top: 10px;
+}
+.blog-area .blog-title h3 a {
+    font-size: 20px;
+}
+.footer-area .footer-title p {
+    width: 74%;
+}
+.hero-section.style-three .hero-title p {
+    width: 70%;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.team-area .section-title p {
+    letter-spacing: 0;
+    width: 100%;
+}
+.pricing-area .pricing-text p {
+    letter-spacing: 1px;
+    width: 82%;
+}
+.hero-section.style-five .content .hero-title h1 {
+    letter-spacing: 5px;
+}
+.skill-button {
+    padding-bottom: 40px;
+}
+.choose-single-box:before {
+    position: inherit;
+}
+.skill-title h2 {
+    letter-spacing: 1px;
+}
+.skill-title p {
+    letter-spacing: 0px;
+}
+.section-title-1 p {
+    letter-spacing: 0px;
+    font-size: 14px;
+}
+.pricing-area .pricing-text p {
+    font-size: 12px;
+    letter-spacing: 0px;
+}
+.service-area.upper-1 .Section-title p {
+    font-size: 13px;
+    letter-spacing: 0px;
+}
+.breadcumb-title h1 {
+    font-size: 54px;
+}
+.service-area.upper-2 .Section-title p {
+    font-size: 12px;
+    letter-spacing: 0;
+}
+.testimonial-area.style-three.upper1 .Section-title p {
+    font-size: 12px;
+    letter-spacing: 0px;
+}
+.about-area .about-box .about-thumb img {
+    width: 100%;
+}
+
+}
+/* small mobile :600px. */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+.header-area .header-menu ul li a {
+    padding-left: 0;
+    letter-spacing: 0;
+    margin-right: 3px;
+}
+.contact-area .contact-title h1 {
+    font-size: 35px;
+}
+.header-area .header-menu ul li {
+    font-size: 10px;
+}
+.hero-section .content .hero-title h1 {
+    font-size: 33px;
+    letter-spacing: 10px;
+}
+.feature-area .single-feature-box .feature-content .feature-title p {
+    width: 94%;
+}
+.counter-area .single-counter-box {
+    margin-top: 10px;
+}
+.testimonial-area .testimonial-content .testimonial-text p {
+    width: 65%;
+    font-size: 15px;
+}
+.blog-area .blog-title h3 a {
+    font-size: 18px;
+    width: 73%;
+}
+.footer-area .footer-title p {
+    font-size: 14px;
+    width: 74%;
+}
+.copyright-area .copyright-text ul {
+    text-align: center;
+    margin-top: 0;
+}
+.copyright-area .copyright-title h4 {
+    text-align: center;
+}
+.copyright-area .copyright-title h4 {
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+.hero-section.style-three .hero-title p {
+    width: 86%;
+    letter-spacing: 0px;
+}
+.team-area .section-title p {
+    letter-spacing: 0;
+    width: 96%;
+}
+.pricing-area .pricing-text p {
+    letter-spacing: 0;
+    width: 94%;
+}
+.pricing-title p {
+    margin: 35px 150px 35px;
+}
+.pricing-title2 p {
+    margin: 35px 150px 35px;
+ }
+.testimonial-area.style-three .testimonial-text p {
+    letter-spacing: 0;
+    font-size: 11px;
+}
+.testimonial-area.style-three .single-testimonial h4 {
+    top: -60px;
+    left: 68px;
+}
+.blog-area .blog-title h3 a {
+    font-size: 17px;
+}
+.blog-area .blog-title p {
+    font-size: 12px;
+    letter-spacing: 0;
+}
+.hero-section.style-five .content .hero-title h1 {
+    font-size: 29px;
+}
+.hero-section.style-five .content .hero-title h1 {
+    letter-spacing: 4px;
+}
+.skill-button {
+    padding-bottom: 30px;
+}
+.team-area .section-title h2 {
+    font-size: 36px;
+    letter-spacing: 5px;
+}
+.choose-single-box:before {
+    position: inherit;
+}
+.hero-title-2 h5 {
+    letter-spacing: 3px;
+}
+.pricing-area .pricing-text p {
+    font-size: 11px;
+    letter-spacing: 0px;
+}
+.breadcumb-title h1 {
+    font-size: 40px;
+}
+.testimonial-area.style-three.upper1 .Section-title p {
+    font-size: 13px;
+    letter-spacing: 0px;
+}
+.team-area .section-title p {
+    font-size: 12px;
+}
+.service-area.upper-2 .Section-title p {
+    font-size: 14px;
+    letter-spacing: 0px;
+}
+.portfolio-area .item-details .item {
+    width: 50%;
+}
+.blog-area.upper-55 .blog-title h3 a {
+    font-size: 19px;
+    letter-spacing: 0px;
+}
+
+
+
+
+
+
+}
+/* small mobile :320px. */
+@media only screen and (min-width: 320px) and (max-width: 599px) {
+.hero-section .content .hero-title h1 {
+    font-size: 29px;
+    letter-spacing: 24px;
+}
+.portfolio-area .item-details .item {
+    width: 100%;
+}
+.hero-section .content .hero-button {
+    margin-bottom: 15px;
+}
+.footer-area .footer-title p {
+    font-size: 14px;
+    width: 64%;
+}
+.footer-area .footer-icon ul li a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+.copyright-area .copyright-title h4 {
+    font-size: 12px;
+    text-align: center;
+}
+.copyright-area .copyright-text ul {
+    text-align: center;
+    margin-top: 0;
+}
+.copyright-area .copyright-text ul li a {
+    margin-left: 0;
+    font-size: 15px;
+}
+.portfolio-area .Section-title h2 {
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.service-area .Section-title h2 {
+    font-size: 25px;
+    letter-spacing: 6px;
+}
+.counter-area .single-counter-box {
+    margin-bottom: 15px;
+}
+.testimonial-area .Section-title h2 {
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+.blog-area .section-title h2 {
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.blog-area .blog-title h3 a {
+    font-size: 19px;
+}
+.hero-section.style-three .content .hero-title h1 {
+    font-size: 33px;
+    letter-spacing: 2px;
+}
+.hero-section.style-three .hero-title h2 {
+    font-size: 34px;
+    letter-spacing: 2px;
+}
+.hero-section.style-three .hero-title p {
+    width: 100%;
+    letter-spacing: 0;
+}
+.feature-area.style-three .section-title h2 {
+    letter-spacing: 4px;
+}
+.portfolio-area.style-three .section-title h2 {
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+.team-area .section-title p {
+    letter-spacing: 1px;
+    width: 100%;
+}
+.pricing-area .section-title h2 {
+    font-size: 35px;
+    letter-spacing: 5px;
+}
+.pricing-area .pricing-text p {
+    letter-spacing: 1px;
+}
+.testimonial-area.style-three .testimonial-text p {
+    letter-spacing: 0;
+}
+.blog-area .blog-title p {
+    font-size: 12px;
+}
+.pricing-area .section-title h2 {
+    font-size: 30px;
+}
+.hero-section.style-five .content .hero-button a {
+    font-size: 14px;
+    letter-spacing: 0px;
+}
+.skill-title h2 {
+    letter-spacing: 2px;
+}
+.hero-section.style-five .hero-title p {
+    letter-spacing: 0;
+}
+.hero-section.style-five .content .hero-title h1 {
+    letter-spacing: 1px;
+}
+.skill-title h2 {
+    letter-spacing: 0px;
+}
+.skill-button {
+    padding-bottom: 30px;
+}
+.choose-single-box:before {
+    position: inherit;
+}
+.skill-title p {
+    font-size: 20px;
+    letter-spacing: 0px;
+}
+.about-area-1 .about-titlee h3 {
+    font-size: 32px;
+    letter-spacing: 0px;
+}
+.choose-area.upper .section-title h2 {
+    font-size: 37px;
+    letter-spacing: 0px;
+}
+.breadcumb-title h1 {
+    font-size: 45px;
+}
+.service-area.upper-2 .Section-title h2 {
+    letter-spacing: 0px;
+}
+.service-area.upper-2 .Section-title p {
+    letter-spacing: 0px;
+}
+.blog-area.upper-55 .blog-title h3 a {
+    font-size: 21px;
+    letter-spacing: 0;
+}
+.blog-area.upper-55 .blog-title h4 a {
+    font-size: 19px;
+    letter-spacing: 0;
+}
+.blog-area.upper-55 .pagination.upper ul li a {
+    font-size: 12px;
+}
+.sideber-title h3 {
+    font-size: 20px;
+}
+.sideber-title h3 {
+    font-size: 19px;
+}
+.testimonial-area .testimonial-content .testimonial-text p {
+    width: 90%;
+    font-size: 13px;
+}
+.single-testimonial {
+    margin-top: 20px;
+}
+.about-thumb img {
+    width: 100%;
+}
+
+}
+
+

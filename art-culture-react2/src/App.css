@@ -1,0 +1,58 @@
+/* Custom Styles from original HTML */
+.text-shadow {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+    .ink-border {
+        border-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="4" height="4"><path d="M0 0h4v4H0z" fill="none" stroke="%231a1a1a" stroke-width="1" stroke-dasharray="1,1"/></svg>') 1 repeat;
+    }
+    .scroll-effect {
+        position: relative;
+        overflow: hidden;
+    }
+    .scroll-effect::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+        transition: 0.5s;
+    }
+    .scroll-effect:hover::before {
+        left: 100%;
+    }
+    .chinese-seal {
+        transform: rotate(-5deg);
+        opacity: 0.9;
+    }
+    .ink-wash-card {
+        background-color: rgba(245, 240, 230, 0.9);
+        border: 1px solid rgba(26, 26, 26, 0.2);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+        transition: all 0.3s ease;
+    }
+    .ink-wash-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
+    }
+    .nav-link {
+        position: relative;
+        transition: all 0.3s ease;
+    }
+    .nav-link::after {
+        content: '';
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        width: 0;
+        height: 1px;
+        background-color: #c1272d;
+        transition: width 0.3s ease;
+    }
+    .nav-link:hover::after {
+        width: 100%;
+    }
+    .active-nav::after {
+        width: 100%;
+    }
