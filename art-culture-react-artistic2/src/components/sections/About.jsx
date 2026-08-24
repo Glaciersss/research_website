@@ -77,7 +77,7 @@ function ImageGallery() {
   return (
     <div className="w-full space-y-3">
       <div
-        className="relative w-full max-w-[1000px] mx-auto -translate-y-[100px] h-[340px] md:h-[540px] overflow-visible"
+        className="relative w-full max-w-[1000px] mx-auto h-[340px] md:h-[540px] overflow-visible -translate-y-[30px]"
         style={{ perspective: '1400px', transformStyle: 'preserve-3d' }}
       >
         {cards.map((card) => {
@@ -134,14 +134,7 @@ function ImageGallery() {
       </div>
 
       {list.length > 1 && (
-        <div className="flex items-center justify-center gap-4 mt-0">
-          <button
-            type="button"
-            onClick={() => goTo(current - 1)}
-            className="w-10 h-10 rounded-full border border-stone/15 bg-white/60 text-stone hover:bg-white/80 transition-colors"
-          >
-            &#8249;
-          </button>
+        <div className="flex items-center justify-center mt-0">
           <div className="flex justify-center gap-2 translate-y-[120px]">
             {list.map((_, i) => (
               <button
@@ -155,13 +148,6 @@ function ImageGallery() {
               />
             ))}
           </div>
-          <button
-            type="button"
-            onClick={() => goTo(current + 1)}
-            className="w-10 h-10 rounded-full border border-stone/15 bg-white/60 text-stone hover:bg-white/80 transition-colors"
-          >
-            &#8250;
-          </button>
         </div>
       )}
     </div>
